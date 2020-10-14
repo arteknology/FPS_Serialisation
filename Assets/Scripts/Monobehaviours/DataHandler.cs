@@ -47,7 +47,7 @@ public static class DataHandler
     /// <param name="fileName">The data fileName</param>
     /// /// <typeparam name="T">The serializable data type</typeparam>
     public static T Load<T>(UnityDirectory unityDirectory, string fileName)
-    {
+    { 
         //Call CheckOrCreateDirectory
         CheckOrCreateDirectory(GetDirectory(unityDirectory));
         //Get the filePath

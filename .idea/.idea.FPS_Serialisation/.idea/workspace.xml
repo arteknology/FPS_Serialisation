@@ -10,12 +10,33 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Serializable/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Monobehaviours/PauseScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Serializable/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../VisualNovel/Assets/Scripts/StoryUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../VisualNovel/Assets/Scripts/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Monobehaviours/GameToLoad.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Monobehaviours/WeaponAnim.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Monobehaviours/PlayerMovementControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Monobehaviours/GunAnimController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Monobehaviours/MenuManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Monobehaviours/PlayerMovementControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Monobehaviours/PlayerCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Serializable/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Monobehaviours/Game.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Serializable/Game.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Serializable/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Serializable/Weapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Serializable/Achievements.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Monobehaviours/DataHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Monobehaviours/PauseScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Monobehaviours/GameToLoad.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Monobehaviours/GameHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Monobehaviours/PlayerHandler.cs" />
       </list>
     </option>
   </component>
@@ -60,7 +81,9 @@
       <updated>1602768173804</updated>
       <workItem from="1602768179675" duration="784000" />
       <workItem from="1602768989247" duration="1538000" />
-      <workItem from="1602770866921" duration="1304000" />
+      <workItem from="1602770866921" duration="1524000" />
+      <workItem from="1602834156869" duration="6424000" />
+      <workItem from="1602850705307" duration="11370000" />
     </task>
     <servers />
   </component>

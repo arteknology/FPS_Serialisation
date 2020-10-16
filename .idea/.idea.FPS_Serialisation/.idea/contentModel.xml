@@ -9,13 +9,19 @@
         <e p="Scripts" t="Include">
           <e p="Monobehaviours" t="Include">
             <e p="DataHandler.cs" t="Include" />
+            <e p="GameHandler.cs" t="Include" />
+            <e p="GameToLoad.cs" t="Include" />
             <e p="GunAnimController.cs" t="Include" />
+            <e p="MenuManager.cs" t="Include" />
+            <e p="PauseScript.cs" t="Include" />
             <e p="PlayerCamera.cs" t="Include" />
             <e p="PlayerHandler.cs" t="Include" />
             <e p="PlayerMovementControl.cs" t="Include" />
           </e>
           <e p="Serializable" t="Include">
             <e p="Achievements.cs" t="Include" />
+            <e p="Enemy.cs" t="Include" />
+            <e p="Game.cs" t="Include" />
             <e p="Player.cs" t="Include" />
             <e p="Weapon.cs" t="Include" />
           </e>

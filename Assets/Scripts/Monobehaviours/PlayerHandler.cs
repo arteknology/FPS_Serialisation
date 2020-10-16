@@ -1,49 +1,27 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Serializable;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Monobehaviours
 {
     public class PlayerHandler : MonoBehaviour
     {
-        private Player Player;
+        public string Name;
         public int Xp;
         public int Level;
-        private int MaxLevel = 10;
-        private int MaxLevelXp = 10;
+        public int MaxPv = 100;
+        public int Pv;
+        public int MaxLevelXp = 100;
 
-        // Start is called before the first frame update
-        void Start()
+        private const int max_level = 10;
+
+        private void Start()
         {
-            
+            Pv = MaxPv;
         }
 
-        // Update is called once per frame
-        void Update()
-        {
-
-        }
-
-        //Save Player
-        private void Save()
-        {
-            Player = new Player
-            {
-                Position = transform.position
-                //Name = 
-            };
-            DataHandler.Save(UnityDirectory.StreamingAssetPath, Player, Player.Name);
-        }
-        
-        //Load Player
-        public void Load()
-        {
-            Player = DataHandler.Load<Player>(UnityDirectory.StreamingAssetPath, Player.Name);
-            transform.position = Player.Position;
-            Xp = Player.Xp;
-            Level = Player.Level;
-        }
-        
         //Gain Xp
         public void GainXp()
         {
@@ -55,14 +33,12 @@ namespace Monobehaviours
         }
         
         //Gain level
-        public void LevelUp()
+        private void LevelUp()
         {
-            if (Level < MaxLevel && Xp >= MaxLevelXp)
-            {
-                Level++;
-                Xp -= MaxLevelXp;
-                MaxLevelXp += MaxLevel;
-            }
+            if (Level >= max_level || Xp < MaxLevelXp) return;
+            Level++;
+            Xp -= MaxLevelXp;
+            MaxLevelXp += MaxLevelXp;
         }
     }
 }

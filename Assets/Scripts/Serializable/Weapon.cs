@@ -1,12 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using System;
+﻿using System;
 
-[Serializable]
-public class Weapon
+namespace Serializable
 {
-    public int Damage;
-    public int Xp;
-    public int Level;
+    [Serializable]
+    public class Weapon
+    {
+        public float Name;
+        public int Damage;
+        public int Xp;
+        public int Level;
+    }
 }
